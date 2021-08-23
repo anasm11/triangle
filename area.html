@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="area.css">
+    <title>Triangles</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <h2>Fun with Triangles</h2>
+            <div class='nav-links'>
+                <a href='./index.html'>Is Triangle?</a>
+                <a href='./quiz.html'>Quiz</a>
+                <a href='./hypt.html'>Hypotenuse</a>
+                <a href=''>Area of Triangle</a>
+            </div>
+        </nav>
+        <div class="container">
+            <input id='opt1' type='radio' name='option' required>3 sides
+            <input id='opt2' type='radio' name='option' required>Base & Height
+
+            <form id='form1' style='display:none'>
+                <h3>Enter three sides of triangle</h3>
+                <input type='number' placeholder='side 1' required>
+
+                <input type='number' placeholder='side 2' required>
+
+                <input type='number' placeholder='side 3' required>
+
+                <input id='submit1' type='submit'>
+            </form>
+
+            <form id='form2' style='display:none'>
+                <h3>Enter base and height</h3>
+                <input type='number' placeholder='base' required>
+
+                <input type='number' placeholder='height' required>
+                <input id='submit2' type='submit'>
+            </form>
+            <p id='output'></p>
+        </div>
+    </div>
+    <script type='text/javascript' src='./area.js'></script>
+
+</body>
+<footer>
+    <p>© | 2021 | anas</p>
+    <ul class="social-links">
+        <li class="list-item-inline"><a href='https://github.com/anasm11' target="_blank"><img
+                    src='./icons/github.png'></a></li>
+        <li class="list-item-inline"><a href="https://www.linkedin.com/in/anas-m-23198121a/" target='_blank'><img
+                    src='./icons/linkedin.png'></a></li>
+    </ul>
+</footer>
+
+</html>
